@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>工单明细表</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/工单明细表/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/工单明细表/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2788" class="ax_default _二级标题">
+        <div id="u2788_div" class=""></div>
+        <div id="u2788_text" class="text ">
+          <p><span>工单明细表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u2789" class="ax_default line">
+        <img id="u2789_img" class="img " src="images/工单明细表/u2789.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2790" class="ax_default label">
+        <div id="u2790_div" class=""></div>
+        <div id="u2790_text" class="text ">
+          <p><span>建单时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2791" class="ax_default primary_button">
+        <div id="u2791_div" class=""></div>
+        <div id="u2791_text" class="text ">
+          <p><span>导出</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2792" class="ax_default primary_button">
+        <div id="u2792_div" class=""></div>
+        <div id="u2792_text" class="text ">
+          <p><span>查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2793" class="ax_default primary_button">
+        <div id="u2793_div" class=""></div>
+        <div id="u2793_text" class="text ">
+          <p><span>清空</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2794" class="ax_default primary_button">
+        <div id="u2794_div" class=""></div>
+        <div id="u2794_text" class="text ">
+          <p><span>导入查询</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2795" class="ax_default label">
+        <div id="u2795_div" class=""></div>
+        <div id="u2795_text" class="text ">
+          <p><span>导入车架号查询</span></p><p><span>可参考【壹好车服&gt;明细表】实现方式，每次导入上限500</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2796" class="ax_default label">
+        <div id="u2796_div" class=""></div>
+        <div id="u2796_text" class="text ">
+          <p><span>工单状态</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u2797" class="ax_default _下拉列表框">
+        <select id="u2797_input">
+          <option value="全部">全部</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2798" class="ax_default label">
+        <div id="u2798_div" class=""></div>
+        <div id="u2798_text" class="text ">
+          <p><span>1、导出内容：同报表中心 工单明细表</span></p><p><span>2、备注：工单维护界面的【导出明细】可取消</span></p><p><span>3、若请求导出数量超过上限，不允许导出，信息提示：导出失败，数量超过系统上线。</span></p><p><span>4、支持导出即可，数据不需要前台展示</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2799" class="ax_default label">
+        <div id="u2799_div" class=""></div>
+        <div id="u2799_text" class="text ">
+          <p><span>实现方式：起止时间跨度不超过31天</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2800" class="ax_default label">
+        <div id="u2800_div" class=""></div>
+        <div id="u2800_text" class="text ">
+          <p><span>区域</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u2801" class="ax_default _下拉列表框">
+        <select id="u2801_input">
+          <option value="省">省</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u2802" class="ax_default _下拉列表框">
+        <select id="u2802_input">
+          <option value="市">市</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u2803" class="ax_default text_field">
+        <input id="u2803_input" type="text" value="起"/>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u2804" class="ax_default icon">
+        <img id="u2804_img" class="img " src="images/工单明细表/u2804.png"/>
+      </div>
+
+      <!-- Unnamed (文本框) -->
+      <div id="u2805" class="ax_default text_field">
+        <input id="u2805_input" type="text" value="支"/>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u2806" class="ax_default icon">
+        <img id="u2806_img" class="img " src="images/工单明细表/u2804.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2807" class="ax_default label">
+        <div id="u2807_div" class=""></div>
+        <div id="u2807_text" class="text ">
+          <p><span>页面需展示左侧提示信息</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2808" class="ax_default label">
+        <div id="u2808_div" class=""></div>
+        <div id="u2808_text" class="text ">
+          <p><span>提示：每次导出上限8000条</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
